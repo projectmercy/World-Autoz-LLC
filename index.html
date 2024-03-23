@@ -9,21 +9,26 @@
     padding: 0;
     height: 100%;
     width: 100%;
+    background-color: #444444;
   }
   .banner {
-    background-color: #505050; /* Steel grey color */
-    color: white;
+    background-color: #505050; /* Adjusted steel grey color */
     text-align: center;
-    padding: 20px 0;
-    font-family: 'Brush Script MT', cursive; /* Cursive font */
-    font-size: 2em; /* Adjust size as needed */
+    padding: 0; /* No padding inside the banner */
+    height: 20%; /* Set the height to 80% of the parent element's height */
+  }
+  .banner img {
+    max-width: 100%; /* Makes the image responsive */
+    height: auto; /* Maintain aspect ratio */
+    vertical-align: middle; /* Aligns image vertically in the banner */
+    height: 100%; /* Set the height to 80% of the parent element's height */
   }
 </style>
 </head>
 <body>
 
 <div class="banner">
-  <h1>World Autoz</h1>
+  <img src="World Autoz Logo.png" alt="World Autoz Logo"> <!-- Removed inline sizing to allow the image to be naturally sized -->
 </div>
 
 </body>
