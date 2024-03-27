@@ -13,7 +13,7 @@ body, html {
   }
   .sub-banner {
     background-color: #555555;
-    color: orange;
+    color: rgb(255, 210, 125);
     text-align: center;
     height: 5vh;
     display: flex;
@@ -48,7 +48,7 @@ body, html {
 
 .car-item img {
   max-width: 100%; /* responsive image width */
-  height: auto; /* maintain aspect ratio */
+  height: 350px; /* maintain aspect ratio */
   border-bottom: 1px solid #ddd; /* line between image and text */
   padding-bottom: 15px; /* space below image */
 }
