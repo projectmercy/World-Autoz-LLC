@@ -29,4 +29,26 @@ body, html {
     vertical-align: middle; /* Aligns image vertically in the banner */
     height: 100%; /* Set the height to 80% of the parent element's height */
   }
-  
+
+.car-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* creates a 3-column grid */
+  gap: 20px; /* space between items */
+  padding: 20px; /* padding around the grid */
+}
+
+.car-item {
+  background-color: #111111; /* white background for each item */
+  padding: 15px; /* space inside each item */
+  border-radius: 10px; /* rounded corners */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* subtle shadow */
+  text-align: center; /* centering the text */
+  color: white
+}
+
+.car-item img {
+  max-width: 100%; /* responsive image width */
+  height: auto; /* maintain aspect ratio */
+  border-bottom: 1px solid #ddd; /* line between image and text */
+  padding-bottom: 15px; /* space below image */
+}
